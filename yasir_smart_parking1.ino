@@ -40,9 +40,9 @@ void loop()
   delay(100); // Wait for 100 millisecond(s)
   if(cm>=100)
   {
-    digitalWrite(green,HIGH);
+    digitalWrite(red,HIGH);
     delay(500);
-    digitalWrite(green,LOW);
+    digitalWrite(red,LOW);
     delay(500);
   } 
     
@@ -55,9 +55,9 @@ void loop()
      } 
   		 else if(cm>=25 && cm<50)
   {
-    digitalWrite(red,HIGH);
+    digitalWrite(green,HIGH);
     delay(500);
-    digitalWrite(red,LOW);
+    digitalWrite(green,LOW);
     delay(500);
      } 
        else if(cm<25)
